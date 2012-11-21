@@ -11,7 +11,6 @@ int main()
     int scan, i;
     long long sum = 0;
     for (i = 2; i*i < LIMIT; ) {
-        printf("prime: %d\n", i);
         scan = i;
         while (scan+i < LIMIT)    /* sieve */
             sieve[scan+=i] = 1;
