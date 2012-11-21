@@ -11,6 +11,6 @@ int main()
         while (num % fac == 0)
             num /= fac;
     }
-    printf("%d\n", fac);
+    printf("%ld\n", fac);
     return 0;
 }
