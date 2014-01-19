@@ -1,1 +1,1 @@
-CFLAGS=-g -Werror -Wall
+CFLAGS=-g -Werror -Wall -std=c99
